@@ -1,6 +1,21 @@
 # BugBrawl
 Application where a user uploads pictures of bugs that they find. The bugs then battle in a simulated environment to see whos the best!
 
+## start up
+1. Create virtual environment
+python -m venv venv
+source venv/bin/activate  # On Windows: venv\Scripts\activate
+
+# 2. Install dependencies
+pip install -r requirements.txt
+
+# 3. Create .env file
+echo "SECRET_KEY=your-secret-key-here" > .env
+
+# 4. Run the app
+python run.py
+
+# 5. Visit http://localhost:5000
 
 Proposed Project Strucuture:
 
