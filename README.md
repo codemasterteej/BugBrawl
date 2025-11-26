@@ -4,7 +4,7 @@ Application where a user uploads pictures of bugs that they find. The bugs then 
 
 Proposed Project Strucuture:
 
-'''
+```
 BugBrawl/
 ├── app/
 │   ── __init__.py
@@ -27,4 +27,4 @@ BugBrawl/
 ├── config.py
 ├── run.py <- python run.py to spin app up
 └── requirements.txt
-'''
+```
