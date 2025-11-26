@@ -28,3 +28,12 @@ BugBrawl/
 ├── run.py <- python run.py to spin app up
 └── requirements.txt
 ```
+
+
+##To-do:
+
+- refine battle engine
+- create tournament format
+- generate pokedex
+- connect LLM narrator - anthropic, openai, ollama
+- connect taxonomy api (inaturalist, wiki, etc)
