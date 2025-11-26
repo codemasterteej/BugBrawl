@@ -6,16 +6,16 @@ Application where a user uploads pictures of bugs that they find. The bugs then 
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 
-# 2. Install dependencies
+2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Create .env file
+3. Create .env file
 echo "SECRET_KEY=your-secret-key-here" > .env
 
-# 4. Run the app
+4. Run the app
 python run.py
 
-# 5. Visit http://localhost:5000
+5. Visit http://localhost:6000
 
 Proposed Project Strucuture:
 
